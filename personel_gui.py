@@ -73,7 +73,7 @@ def personel_yonetimi():
     global entry_ptarih
 
     personel_window = tk.Toplevel()
-    personel_window.title('Admin') # giris yapan yetkisine gore bu title sekillendirilecek.
+    personel_window.title('Admin')
     personel_window.geometry('450x400')
     personel_window.configure(bg='#e3f2fd')
 
@@ -146,7 +146,7 @@ def add_user():
 
     data = load_data()
 
-    # Aynı personel olup olmadığını kontrol et
+    
     for personal in data:
         if personal['ad'].lower() == personel_name.lower() and personal['soyad'].lower() == personel_surname.lower():
             show_warning_message("Bu personel zaten mevcut!")
