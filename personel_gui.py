@@ -23,7 +23,7 @@ def login_design():
     window.geometry('500x250')
     window.configure(bg='#f4f6f9')
 
-    # label olusumu
+   
     style = ttk.Style()
     style.configure("TButton",
                     font=("Segoe UI", 12, "bold"),
@@ -77,7 +77,7 @@ def personel_yonetimi():
     personel_window.geometry('450x400')
     personel_window.configure(bg='#e3f2fd')
 
-    # add personel
+
 
     style = ttk.Style()
     style.configure("TButton",
